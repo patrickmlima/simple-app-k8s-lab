@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS meubanco;
+
+CREATE TABLE IF NOT EXISTS mensagens(
+    id INT NOT NULL,
+    nome VARCHAR(30) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    comentario TEXT NOT NULL,
+    PRIMARY KEY(id)
+);
