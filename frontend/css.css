@@ -25,10 +25,11 @@ html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat
 	float: left;
 	left: 50%;
 	position: absolute;
-  margin-top:30px;
+  	margin-top:30px;
 	margin-left: -260px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
+	border-radius: 7px;
+  	-moz-border-radius: 7px;
+  	-webkit-border-radius: 7px;
 }
 
 .feedback-input {
@@ -134,11 +135,11 @@ input:focus, textarea:focus {
 	background-color: rgba(0,0,0,0);
 	color: #0493bd;
 }
-	
+
 .submit:hover {
 	color: #3498db;
 }
-	
+
 .ease {
 	width: 0px;
 	height: 74px;
