@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp-backend
+spec:
+  selector:
+    app: myapp-backend
+  ports:
+  - port: 8080
+    targetPort: 80
+  type: LoadBalancer
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp-db
+spec:
+  selector:
+    app: myapp-db
+  clusterIP: None
+  ports:
+  - port: 3306
+
